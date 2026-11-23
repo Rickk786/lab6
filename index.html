@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="weather-box">
+    <h1>Weather Mood ☀️</h1>
+    <p>How's the weather today?</p>
+
+    <select id="city">
+      <option value="toronto">Toronto</option>
+      <option value="bangkok">Bangkok</option>
+      <option value="tokyo">Tokyo</option>
+    </select>
+
+    <h2 id="temperature">--°C</h2>
+    <p id="message">Click the button to check the weather!</p>
+
+    <button onclick="getWeather()">Check Weather</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
